@@ -1,3 +1,7 @@
-markdown: kramdown
-pygments: true
+host: 0.0.0.0
+port: 4040
+kramdown:
+    syntax_highlighter: rouge
+gems: [ jekyll-paginate ]
+
 paginate: 3
